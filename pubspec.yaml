@@ -1,0 +1,62 @@
+# Project name
+name: technewz
+
+# Short description of the project
+description: A Flutter News App project.
+
+# Prevents this project from being published to pub.dev
+publish_to: 'none'
+
+# Version of the application
+# Format: major.minor.patch + build number
+version: 1.0.0+1
+
+# Dart SDK version required to run the project
+# Most modern Flutter plugins require Dart 3+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+# Packages used in the application
+dependencies:
+  
+  # Flutter SDK dependency
+  flutter:
+    sdk: flutter
+  webview_flutter: 
+
+  # Cupertino icons (iOS style icons)
+  cupertino_icons: ^1.0.6
+
+  # Google Fonts package for using custom fonts
+  google_fonts: ^6.1.0
+
+  # HTTP package used to fetch data from APIs (like news API)
+  http: ^1.2.1
+
+  # Used to load and cache images from the internet
+  cached_network_image: ^3.3.1
+
+  # Used to open URLs in browser or apps
+  url_launcher: ^6.3.0
+
+# Development dependencies (used during development/testing only)
+dev_dependencies:
+
+  # Flutter testing framework
+  flutter_test:
+    sdk: flutter
+
+# Flutter specific settings
+flutter:
+
+  # Enables Material icons in the project
+  uses-material-design: true
+
+  # Assets section for images, files etc.
+  assets:
+    - assets/
+
+# Example:
+# assets/
+#   logo.png
+#   banner.jpg
